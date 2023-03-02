@@ -6,8 +6,9 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
-    name: "title",
-    message: "What is the title of your application?",
+    name: "question1",
+    message: "When was the last time you created a new repo or pushed a commit to your GitHub account?",
+    // I found that some interviewers are not actual developers but will go into the GitHub accound and review the frequency/history of our git commits and activity. A mentor told me not to lie and that they won't take you as seriously if you're not actively working on projects in your repos, esp. after graduation. - jen 3/2/2023
   },
   {
     type: "input",
